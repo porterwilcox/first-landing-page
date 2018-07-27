@@ -2,13 +2,15 @@
     outline: 1px solid red;
 } */
 
-/* * {
+.texty-font{
     font-family: 'Roboto Mono';
-} */
-
-* {
-    font-family: 'Archivo Black'
 }
+
+.bg-all {
+    background-image: url('/assets/images/limestone-maybe.jpg');
+}
+
+
 .h100 {
     height: 100%;
 }
@@ -17,8 +19,12 @@
     width: 100%;
 }
 
-.pt-10 {
-    padding-top: 10em;
+.pt-8 {
+    padding-top: 8em;
+}
+
+.pb-8 {
+    padding-bottom: 8em;
 }
 
 .chief {
@@ -38,13 +44,84 @@
 }
 
 .texty-1 {
-    text-shadow: 20px 15px 5px black;
+    text-shadow: 17px 15px 5px black;
     font-size: 2.5em;
     color: whitesmoke;
+    font-family: 'Archivo Black'
 }
 
 .texty-2 {
-    text-shadow: 20px 15px 5px black;
+    text-shadow: 17px 15px 5px black;
     font-size: 1.8em;
     color: whitesmoke;
+    font-family: 'Archivo Black'
+}
+
+.icon-nav {
+    font-size: 3em;
+    text-shadow: 20px 15px 15px black;
+    color: rgb(221, 221, 221);
+    padding-right: .3em
+}
+
+.icon-nav:hover {
+    color: white;
+}
+
+.main-nav {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+}
+
+.green {
+    background: linear-gradient(360deg, #61815C, rgb(43, 59, 40));
+}
+
+.green-other {
+    background: linear-gradient(180deg, #61815C, rgb(43, 59, 40));
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono';
+    color: whitesmoke;
+}
+
+.about-paras {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.border-time {
+    border: 1px outset white;
+    box-shadow: 0 0 5px 5px rgb(219, 219, 221);
+    background-color: #61815C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE*/
+@media (max-width: 1200px) {
+
+.icon-nav {
+    font-size: 1.3em;
+    padding-right: .6em;
+}
+
+
+
 }
