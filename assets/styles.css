@@ -1,0 +1,19 @@
+* {
+    outline: 1px solid red;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.pt-10 {
+    padding-top: 10em;
+}
+
+.chief {
+    background-image: url('/assets/images/the-chief.jpg');
+}
