@@ -10,6 +10,9 @@
     background-image: url('/assets/images/limestone-maybe.jpg');
 }
 
+.white {
+    color: whitesmoke;
+}
 
 .h100 {
     height: 100%;
@@ -129,6 +132,7 @@
 .climb-img-pos {
     display: flex;
     justify-content: center;
+    padding-right: .3em;
 }
 
 .climb-img {
@@ -142,7 +146,49 @@
     color: whitesmoke;
 }
 
+.proj {
+    padding-top: 2em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    text-shadow: 17px 15px 2px black;
+    color: whitesmoke;
+    border: 1px outset white;
+    border-radius: 20%;
+    font-family: 'Roboto Mono';
+}
 
+.dark-bg {
+    background-color: #212529;
+}
+
+.contact-title {
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+.c-title-pos {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.label-stuff {
+    display: flex;
+    flex-flow: wrap column;
+    align-content: center;
+}
+
+.bigger {
+    height: 6em;
+}
+
+.my-button {
+    border-radius: 15%;
+    width: 8em;
+    height: 2em;
+    text-align: center;;
+}
 
 
 
