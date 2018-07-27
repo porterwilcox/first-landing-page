@@ -1,7 +1,14 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
+/* * {
+    font-family: 'Roboto Mono';
+} */
+
+* {
+    font-family: 'Archivo Black'
+}
 .h100 {
     height: 100%;
 }
@@ -16,4 +23,28 @@
 
 .chief {
     background-image: url('/assets/images/the-chief.jpg');
+}
+
+.icon-port {
+    font-size: 10em;
+    text-shadow: 25px 18px 25px black;
+}
+
+.intro {
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texty-1 {
+    text-shadow: 20px 15px 5px black;
+    font-size: 2.5em;
+    color: whitesmoke;
+}
+
+.texty-2 {
+    text-shadow: 20px 15px 5px black;
+    font-size: 1.8em;
+    color: whitesmoke;
 }
