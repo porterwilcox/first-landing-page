@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 .texty-font{
     font-family: 'Roboto Mono';
@@ -124,6 +124,22 @@
     align-content: space-around;
     font-size: 6em;
     align-items: center;
+}
+
+.climb-img-pos {
+    display: flex;
+    justify-content: center;
+}
+
+.climb-img {
+    width: 110%;
+    height: 100%
+}
+
+.projs-title {
+    font-size: 2.8em;
+    text-shadow: 17px 15px 5px black;
+    color: whitesmoke;
 }
 
 
