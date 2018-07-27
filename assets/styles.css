@@ -1,6 +1,6 @@
-/* * {
+* {
     outline: 1px solid red;
-} */
+}
 
 .texty-font{
     font-family: 'Roboto Mono';
@@ -102,7 +102,29 @@
     background-color: #61815C;
 }
 
+.langs {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+}
 
+.lang-size {
+    font-size: 2.8em;
+}
+
+.code-icon {
+    font-size: 3em;
+    padding-right: .1em;
+}
+
+.lang-icons {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    font-size: 6em;
+    align-items: center;
+}
 
 
 
