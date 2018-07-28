@@ -159,14 +159,14 @@
     font-family: 'Roboto Mono';
 }
 
-.chess-img {
+.proj-img {
     width: 95%;
     height: 100%;
     border-radius: 15%;
     opacity: .8;
 }
 
-.chess-img:hover {
+.proj-img:hover {
     opacity: 1;
 }
 
