@@ -6,8 +6,16 @@
     font-family: 'Roboto Mono';
 }
 
-.bg-all {
+/* .bg-all {
     background-image: url('/assets/images/limestone-maybe.jpg');
+} */
+
+.bg-all {
+    background-color: #FBFCFC;
+}
+
+.white-back {
+    background-color: #FBFCFC;
 }
 
 .white {
@@ -174,7 +182,7 @@
     background-color: #212529;
 }
 
-.bg-grey {
+.bg-blue {
     background: linear-gradient(90deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 70%, rgb(97, 161, 182));
 }
 
