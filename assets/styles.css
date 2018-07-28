@@ -142,18 +142,18 @@
 
 .projs-title {
     font-size: 2.8em;
-    text-shadow: 17px 15px 5px black;
-    color: whitesmoke;
+    /* text-shadow: 17px 15px 5px black; */
+    color: black;
 }
 
 .proj {
-    padding-top: 2em;
+    padding-top: 1em;
     padding-bottom: 2em;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
-    text-shadow: 17px 15px 2px black;
-    color: whitesmoke;
+    /* text-shadow: 17px 15px 2px black; */
+    color: black;
     /* border: 1px outset white; */
     border-radius: 20%;
     font-family: 'Roboto Mono';
@@ -172,6 +172,10 @@
 
 .dark-bg {
     background-color: #212529;
+}
+
+.bg-grey {
+    background: linear-gradient(90deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 70%, rgb(97, 161, 182));
 }
 
 .contact-title {
