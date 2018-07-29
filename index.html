@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    
+
     <div class="container-fluid">
         <header class="row chief">
             <div class="col-sm-4 offset-sm-4">
@@ -30,9 +30,15 @@
             </div>
             <div class="col-sm-4">
                 <div class=" main-nav pt-3 pb-2">
-                    <i class="fas fa-toolbox icon-nav"></i>
-                    <i class="fas fa-project-diagram icon-nav"></i>
-                    <i class="fas fa-envelope icon-nav"></i>
+                    <a href="#skills" target="_top">
+                        <i class="fas fa-toolbox icon-nav"></i>
+                    </a>
+                    <a href="#projects" target="_top">
+                        <i class="fas fa-project-diagram icon-nav"></i>
+                    </a>
+                    <a href="#contact" target="_top">
+                        <i class="fas fa-envelope icon-nav"></i>
+                    </a>
                 </div>
             </div>
         </header>
@@ -62,10 +68,10 @@
                     consequatur incidunt aperiam animi.</p>
             </div>
         </section>
-        <section class="row green-other pt-3">
+        <section id='skills' class="row green-other pt-3">
             <div class="col-sm-4 pt-5 pb-5 langs">
                 <i class="fas fa-code code-icon"></i>
-                <h4 class="lang-size">languages:</h4>
+                <h4 class="lang-size">skills:</h4>
             </div>
             <div class="col-sm-8 lang-icons">
                 <i class="fab fa-html5"></i>
@@ -85,42 +91,44 @@
                 </div>
             </div>
             <div class="col-sm-9">
-                <div class="row">
+                <div id='projects' class="row">
                     <div class="col-sm-12 pt-3">
                         <h4 class='projs-title'>projects:</h4>
                     </div>
                     <div class="col-sm-4 proj">
-                        <h4 class="pb-1">Chess Clock</h4>
+                        <h5 class="proj-link-title pb-1">Squamish Promotional</h5>
+                        <a href="https://porterwilcox.github.io/bootstrap-clone-3/" target="_blank">
+                            <img class="proj-img" src="assets/images/Squamish-BC.png" alt="Squamish BC"> </a>
+                    </div>
+                    <div class="col-sm-4 proj">
+                        <h5 class="proj-link-title pb-1">Chess Clock</h5>
                         <a href="https://porterwilcox.github.io/chess-clock/" target="_blank">
                             <img class="proj-img" src="assets/images/chess.jpg" alt="chess">
                         </a>
                     </div>
                     <div class="col-sm-4 proj">
-                        <h4 class="pb-1">FCC: Build a Survey</h4>
+                        <h5 class="proj-link-title pb-1">FCC: Build a Survey</h5>
                         <a href="https://porterwilcox.github.io/first-project-survey-form/" target="_blank">
                             <img class="proj-img" src="assets/images/survey-form.png" alt="survey form">
                         </a>
                     </div>
                     <div class="col-sm-4 proj">
-                        <h4 class="pb-1">Others</h4>
+                        <h5 class="proj-link-title pb-1"></h5>
                     </div>
                     <div class="col-sm-4 proj">
-                        <h4 class="pb-1">Others</h4>
+                        <h5 class="proj-link-title pb-1"></h5>
                     </div>
                     <div class="col-sm-4 proj">
-                        <h4 class="pb-1">Others</h4>
+                        <h5 class="pb-1"></h5>
                     </div>
                     <div class="col-sm-4 proj">
-                        <h4 class="pb-1">Others</h4>
-                    </div>
-                    <div class="col-sm-4 proj">
-                        <h4 class="pb-1">Others</h4>
+                        <h5 class="pb-1"></h5>
                     </div>
                 </div>
             </div>
         </section>
         <div class="row white-back pt-8"></div>
-        <footer class="row dark-bg">
+        <footer id="contact" class="row dark-bg">
             <div class="col-sm-4 pt-5 c-title-pos">
                 <h4 class="contact-title">contact:</h4>
             </div>
