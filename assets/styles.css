@@ -33,7 +33,9 @@
 .pt-8 {
     padding-top: 8em;
 }
-
+.pt-6{
+    padding-top: 6em;
+}
 .pb-8 {
     padding-bottom: 8em;
 }
@@ -153,6 +155,7 @@
     color: black;
 }
 
+
 /* .proj-link-title {
     border-bottom: 2px solid blue;
 } */
@@ -169,7 +172,6 @@
     border-radius: 20%;
     font-family: 'Roboto Mono';
 }
-
 .proj-img {
     max-width: 100%;
     height: auto;
@@ -189,17 +191,34 @@
 .bg-blue {
     background: linear-gradient(90deg, rgb(97, 161, 182) 40%, rgb(157, 219, 240) 70%, rgb(97, 161, 182));
 }
-
 .contact-title {
     font-size: 2.5em;
     color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    width: fit-content;
 }
-
 .c-title-pos {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    height: fit-content;
 }
-
+.contact-icon {
+    color: whitesmoke;
+    font-size: 4em;
+    margin: 0 5px;
+}
+.contact-icon-pos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.linked-in {
+    margin-top: 1.5em;
+}
+.resume {
+    margin-top: 3em;
+}
 .label-stuff {
     display: flex;
     flex-flow: wrap column;
@@ -210,53 +229,72 @@
     height: 10em;
     width: 100%;
 }
-
 .my-button {
     width: 100%;
     height: fit-content;
     text-align: right;
+    font-size: 1.2em;
 }
-button {
-    border-radius: 15%;
-    background-color: transparent;
-    border: 1px solid white;
-    color: whitesmoke;
-}
-
 .contact-stuff {
     display: flex;
     flex-flow: wrap column;
     justify-content: flex-end;
-    padding-top: 8em;
+    padding-top: 6em;
 }
-
-
-
-
-
-
-
-
+.form-style {
+    background-color: #2e343a;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(97, 161, 182);
+    margin: .5em 0;
+    color: whitesmoke;
+}
+.form-style::placeholder {
+    text-align: right;
+    color: whitesmoke;
+}
+.contact-img {
+    max-height: 100%;
+    width: auto;
+}
+.contact-img-pos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*MOBILE*/
 @media (max-width: 1125px) {
-
 .icon-nav {
     font-size: 1.3em;
     padding-right: .6em;
 }
-
+.contact-icon {
+    font-size: 1.3em; 
+}
+.contact-icon-pos {
+    justify-content: flex-end;
+}
+.linked-in {
+    margin-top: 0;
+}
+.resume {
+    margin-top: 0;
+}
 .c-title-pos {
     justify-content: flex-start;
     align-items: flex-end;
 }
-
 .contact-stuff {
-    padding-top: 3em;
+    padding-top: 1em;
 }
-
 .proj-img {
     opacity: 1;
 }
-
-
+.form-style::placeholder {
+    text-align: left;
+}
+.contact-img {
+    display: none;
+}
 }

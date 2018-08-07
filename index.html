@@ -98,7 +98,8 @@
                     <div class="col-sm-4 proj">
                         <h5 class="pb-1">Simon Says</h5>
                         <a href="https://porterwilcox.github.io/matching-game/" target="_blank">
-                        <img class="proj-img" src="assets/images/matching-game.png" alt="simon says"></a>
+                            <img class="proj-img" src="assets/images/matching-game.png" alt="simon says">
+                        </a>
                     </div>
                     <div class="col-sm-4 proj">
                         <h5 class="proj-link-title pb-1">Ninja Spy Fighter</h5>
@@ -135,23 +136,37 @@
                 </div>
             </div>
         </section>
-        <div class="row white-back pt-8"></div>
+        <div class="row white-back pt-6"></div>
         <footer id="contact" class="row dark-bg">
-            <div class="col-sm-4 pt-5 c-title-pos">
-                <h4 class="contact-title">contact:</h4>
+            <div class="col-sm-4">
+                <div class="row left-side-contact-pos">
+                    <div class="col-sm-12">
+                        <h4 class="contact-title pt-5 c-title-pos">contact:</h4>
+                    </div>
+                    <div class="col-sm-12 contact-icon-pos">
+                        <a class="contact-icon" href="https://github.com/porterwilcox">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                        <a class="contact-icon" href="https://www.linkedin.com/in/porter-wilcox-613b29168/">
+                            <i class="fab fa-linkedin linked-in"></i>
+                        </a>
+                        <a class="contact-icon" href="https://drive.google.com/open?id=1xaI9cu-nDrGj2ocDILtYJCYllw-Mbmpc">
+                            <i class="fas fa-file-alt resume"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <form class="col-sm-4 contact-stuff" action="https://formspree.io/wilcox.porter@gmail.com"
-            method="POST">
-                <label class='texty-font white' for="email">email:
-                    <input type="email" name="email" required>
-                </label>
-                <label class='texty-font white pt-2' for="phone">phone:
-                    <input type="tel" name="phone" placeholder="optional">
-                </label>
-                    <textarea class='bigger pt-2' type="text" name="body" required></textarea>
-                <div class="my-button pt-2 pb-2"><button>Send it</button></div>
+            <form class="col-sm-4 contact-stuff" action="https://formspree.io/wilcox.porter@gmail.com" method="POST">
+                <input class="form-style" type="email" name="email" placeholder="*email" required>
+                <input class="form-style" type="tel" name="phone" placeholder="phone">
+                <textarea class='bigger pt-2 form-style' type="text" name="body" placeholder="*message" required></textarea>
+                <div class="my-button pt-2 pb-2">
+                    <button class="form-style">Send it</button>
+                </div>
             </form>
-
+            <!-- <div class="col-sm-4 contact-img-pos">
+                <img class="contact-img" src="" alt="send it">
+            </div> -->
         </footer>
     </div>
 
