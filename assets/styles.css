@@ -183,6 +183,7 @@
 
 .dark-bg {
     background-color: #212529;
+    height: fit-content;
 }
 
 .bg-blue {
@@ -206,17 +207,26 @@
 }
 
 .bigger {
-    height: 6em;
+    height: 10em;
+    width: 100%;
 }
 
 .my-button {
+    width: 100%;
+    height: fit-content;
+    text-align: right;
+}
+button {
     border-radius: 15%;
-    width: 8em;
-    height: 2em;
-    text-align: center;;
+    background-color: transparent;
+    border: 1px solid white;
+    color: whitesmoke;
 }
 
 .contact-stuff {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: flex-end;
     padding-top: 8em;
 }
 

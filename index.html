@@ -140,18 +140,17 @@
             <div class="col-sm-4 pt-5 c-title-pos">
                 <h4 class="contact-title">contact:</h4>
             </div>
-            <div class="col-sm-4 contact-stuff">
+            <form class="col-sm-4 contact-stuff" action="https://formspree.io/wilcox.porter@gmail.com"
+            method="POST">
                 <label class='texty-font white' for="email">email:
-                    <input type="text">
+                    <input type="email" name="email" required>
                 </label>
                 <label class='texty-font white pt-2' for="phone">phone:
-                    <input type="text" placeholder="optional">
+                    <input type="tel" name="phone" placeholder="optional">
                 </label>
-                <label class="texty-font pt-2 pb-1"> space:
-                    <input class='bigger' type="text">
-                </label>
-                <!-- <div class="my-button pt-3 pb-2"><button>Climb on</button></div> -->
-            </div>
+                    <textarea class='bigger pt-2' type="text" name="body" required></textarea>
+                <div class="my-button pt-2 pb-2"><button>Send it</button></div>
+            </form>
 
         </footer>
     </div>
