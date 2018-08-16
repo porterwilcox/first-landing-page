@@ -38,7 +38,7 @@
     max-height: 100%;
     width: auto;
     border-radius: 30%;
-    box-shadow: 27px 22px 25px black, -4px -3px 25px 2px black;
+    box-shadow: 22px 27px 75px 5px black, -4px -3px 25px 2px black;
 }
 .intro {
     display: flex;
@@ -47,13 +47,13 @@
     justify-content: center;
 }
 .texty-1 {
-    text-shadow: 17px 15px 5px black, -2px -1px 2px black;
+    text-shadow: 10px 12px 8px black, -2px -1px 2px black;
     font-size: 2.5em;
     color: whitesmoke;
     font-family: 'Archivo Black'
 }
 .texty-2 {
-    text-shadow: 17px 15px 5px black, -2px -1px 1px black;
+    text-shadow: 10px 12px 8px black, -2px -1px 1px black;
     font-size: 1.8em;
     color: whitesmoke;
     font-family: 'Archivo Black'
@@ -135,12 +135,9 @@
     padding-top: 1em;
     padding-bottom: 2em;
     display: flex;
-    flex-flow: wrap row;
-    justify-content: space-evenly;
-    /* text-shadow: 17px 15px 2px black; */
-    color: black;
-    /* border: 1px outset white; */
-    border-radius: 20%;
+    flex-flow: wrap column;
+    justify-content: flex-start;
+    align-items: center;
     font-family: 'Roboto Mono';
 }
 .proj-img {
