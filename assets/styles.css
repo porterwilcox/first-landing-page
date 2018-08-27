@@ -73,10 +73,10 @@
     justify-content: flex-end;
 }
 .green {
-    background: linear-gradient(360deg, #61815C, rgb(43, 59, 40));
+    background: linear-gradient(360deg, rgb(87, 119, 82), rgb(67, 88, 63));
 }
 .green-other {
-    background: linear-gradient(180deg, #61815C, rgb(43, 59, 40));
+    background: linear-gradient(180deg, rgb(87, 119, 82), rgb(67, 88, 63));
 }
 .about-title {
     display: flex;
@@ -92,13 +92,13 @@
 }
 .border-time {
     border: 1px outset white;
-    box-shadow: 0 0 5px 5px rgb(219, 219, 221);
+    box-shadow: 0 0 5px 2px rgb(219, 219, 221);
     background-color: #61815C;
 }
 .langs {
     display: flex;
     flex-flow: wrap row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 .lang-size {
     font-size: 2.8em;
@@ -107,13 +107,23 @@
     font-size: 3em;
     padding-right: .2em;
 }
-.lang-icons {
+.languages {
     display: flex;
     flex-flow: wrap row;
-    justify-content: space-evenly;
-    align-content: space-around;
-    font-size: 6em;
     align-items: center;
+    justify-content: space-evenly
+}
+.languages img {
+    height: 85px;
+    width: 85px;
+}
+#js6 {
+    height: 80px;
+    width: 75px;
+}
+#b4 {
+    height: 90px;
+    width: 90px;
 }
 .climb-img-pos {
     display: flex;
@@ -213,6 +223,9 @@
     border-bottom: 1px solid rgb(97, 161, 182);
     margin: .5em 0;
     color: whitesmoke;
+}
+form button {
+    cursor: pointer;
 }
 .form-style::placeholder {
     text-align: right;
