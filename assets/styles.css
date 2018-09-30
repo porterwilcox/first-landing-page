@@ -189,10 +189,12 @@
     align-items: flex-start;
 }
 .linked-in {
-    margin-top: 1.5em;
+    position: relative;
+    top: 1.5em;
 }
 .resume {
-    margin-top: 3em;
+    position: relative;
+    top: 3em;
 }
 .label-stuff {
     display: flex;
